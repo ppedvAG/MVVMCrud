@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCrud.Data.EF", "MVVMCru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{1DB17AC8-A088-44E2-903E-5FE2188F3AF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMCrud.UserInterface", "MVVMCrud.UserInterface\MVVMCrud.UserInterface.csproj", "{D8C57EE1-153B-43B7-9476-51E1A4C1A166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{835E506E-1663-4239-8CC6-485001E53583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835E506E-1663-4239-8CC6-485001E53583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835E506E-1663-4239-8CC6-485001E53583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C57EE1-153B-43B7-9476-51E1A4C1A166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C57EE1-153B-43B7-9476-51E1A4C1A166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C57EE1-153B-43B7-9476-51E1A4C1A166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C57EE1-153B-43B7-9476-51E1A4C1A166}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{810FE6A2-9A38-455D-B3D8-F23AD18C639E} = {78C8EB29-9104-4F04-95FD-3589E0221E32}
 		{835E506E-1663-4239-8CC6-485001E53583} = {118AC844-9810-4408-A4C7-9F082EA84445}
+		{D8C57EE1-153B-43B7-9476-51E1A4C1A166} = {1DB17AC8-A088-44E2-903E-5FE2188F3AF3}
 	EndGlobalSection
 EndGlobal
