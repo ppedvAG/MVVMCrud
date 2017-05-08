@@ -14,6 +14,8 @@ namespace MVVMCrud.Data.EF.Configurations
 
             Property(f => f.Firstname).IsRequired();
             Property(f => f.Lastname).IsRequired();
+
+            Property(f => f.BirthDate).HasColumnType("Date");
         }
     }
 }

@@ -14,7 +14,7 @@ namespace MVVMCrud.Data.EF.Migrations
                         FriendId = c.Int(nullable: false, identity: true),
                         Firstname = c.String(nullable: false),
                         Lastname = c.String(nullable: false),
-                        BirthDate = c.DateTime(nullable: false),
+                        BirthDate = c.DateTime(nullable: false, storeType: "date"),
                     })
                 .PrimaryKey(t => t.FriendId);
             
